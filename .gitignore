@@ -365,9 +365,41 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
-# Custom
+# Custom - プロジェクト固有の除外項目
 # テストファイル（必要に応じてコメントアウト）
 test_data.csv
 large_test.csv
 **/output*/
-**/分割結果*/ 
+**/分割結果*/
+
+# 配布用ファイル
+配布用/
+**/配布用/
+配布用README.md
+配布情報.txt
+
+# 実行ファイル
+*.exe
+
+# バッチファイル（プロジェクト固有）
+実行.bat
+
+# 開発用一時ファイル
+temp/
+tmp/
+*.tmp
+
+# 大きなサンプルファイル
+*.large
+sample_*.txt
+sample_*.csv
+test_*.txt
+test_*.csv
+
+# 分割されたファイル
+*_part*.txt
+*_part*.csv
+
+# プロジェクト固有のログファイル
+processing.log
+error.log 
