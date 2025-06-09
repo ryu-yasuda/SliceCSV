@@ -49,7 +49,7 @@ namespace SliceCSV.UI
         /// </summary>
         public static class Messages
         {
-            public const string SelectInputFile = "入力TXTファイルを選択してください。";
+            public const string SelectInputFile = "入力インポートファイルを選択してください。";
             public const string SelectOutputDirectory = "出力先ディレクトリを選択してください。";
             public const string FileNotExists = "選択された入力ファイルが存在しません。";
             public const string Processing = "処理中...";
@@ -63,8 +63,8 @@ namespace SliceCSV.UI
             public const string ProcessButtonText = "分割を実行";
             public const string LogLabel = "処理ログ:";
             
-            public const string FileDialogFilter = "TXTファイル (*.txt)|*.txt|すべてのファイル (*.*)|*.*";
-            public const string FileDialogTitle = "分割するTXTファイルを選択してください";
+            public const string FileDialogFilter = "インポートファイル (*.txt;*.csv)|*.txt;*.csv|TXTファイル (*.txt)|*.txt|CSVファイル (*.csv)|*.csv|すべてのファイル (*.*)|*.*";
+            public const string FileDialogTitle = "分割するインポートファイルを選択してください";
             public const string FolderDialogDescription = "分割されたファイルの保存先ディレクトリを選択してください";
             
             public const string ErrorTitle = "エラー";
